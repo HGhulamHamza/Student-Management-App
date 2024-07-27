@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import StudentTable from './StudentTable';
 
-function StudentList({ students, setStudents }) {
-  console.log(students);
+function StudentList({ students, setStudents,getStudents }) {
+
 
   return (
     <>
